@@ -46,5 +46,20 @@ wkhtmltopdf 0.12.5 (with patched qt)
 ```
 
 
+## ipynb to html
+
+```
+ls *.ipynb | xargs -I{} jupyter nbconvert --to html {}
+```
+
+
+## html to pdf
+
+```
+ls *.html | cut -f1 -d'.' | xargs -I{} wkhtmltopdf {}.html {}.pdf
+```
+
+
+
 
 
