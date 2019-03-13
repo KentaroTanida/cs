@@ -3,6 +3,11 @@
 
 import pandas as pd
 
+
+def output_to_csv(data):
+    data.to_csv('./pandas_no_ki.csv')
+
+
 def main():
     items = ['name', 'phone', 'address']
     df = pd.DataFrame([], columns=items)
@@ -22,10 +27,6 @@ def main():
 
 def output_to_csv(data):
     data.to_csv('./pandas_no_ki.csv')
-
-
-if __name__ == "__main__":
-    main()
 
 
 
