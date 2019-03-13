@@ -25,11 +25,9 @@ def main():
 
     output_to_csv(df)
 
-def output_to_csv(data):
-    data.to_csv('./pandas_no_ki.csv')
 
-
-
+if __name__ == "__main__":
+    main()
 
 
 #ref: https://qiita.com/567000/items/d8a29bb7404f68d90dd4
