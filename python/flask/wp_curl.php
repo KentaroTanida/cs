@@ -1,3 +1,5 @@
+<?php
+
 //API
 //$url = 'http://0.0.0.0:5050';
 $url = 'http://0.0.0.0:5050/v1/target';
@@ -28,3 +30,5 @@ $output = curl_exec($ch);
 echo $output;
 // リソースを閉じる
 curl_close($ch);
+
+?>
