@@ -32,6 +32,10 @@ curl -H "Content-type: application/json" -X POST -d '{"name": "fuga"}' 0.0.0.0:5
 
 '''
 #Flask並列処理について
+
+# 同時アクセスができる（並列処理が可能）
+app.run(host='localhost', port=3000, threaded=True)
+
 https://qiita.com/5zm/items/251be97d2800bf67b1c6
 '''
 
