@@ -30,3 +30,9 @@ check_call
 check_output
 Popen
 '''
+
+'''
+改行コードを削除
+.rstrip('\n')
+'''
+
